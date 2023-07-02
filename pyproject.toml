@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "src"
+version = "0.1.0"
+description = ""
+authors = ["salar <salars42@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+
+python = ">=3.8,<3.9.7 || >3.9.7,<3.10"
+pandas = "^2.0.2"
+hopsworks = "^3.0.5"
+python-dotenv = "^1.0.0"
+optuna = "^3.2.0"
+scikit-learn = "^1.2.2"
+lightgbm = "^3.3.5"
+streamlit = "^1.23.1"
+geopandas = "^0.13.2"
+pydeck = "^0.8.0"
+plotly = "^5.15.0"
+matplotlib = "^3.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
