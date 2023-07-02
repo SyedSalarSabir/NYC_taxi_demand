@@ -69,7 +69,7 @@ with st.spinner(text ='Fetching the inference data'):
     features =  load_features_from_computer(current_time= time_now)
     st.sidebar.write('Inference data retrived')
     progress_bar.progress(2/N_steps)
-    print(f'{features}')
+    #print(f'{features}')
 
 with st.spinner(text='Loading model from Model Registry'):
     model = load_model_from_computer()
